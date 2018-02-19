@@ -1,0 +1,47 @@
+*
+{
+    color : white;
+    background-color: black;
+    font-family: arial;
+    margin: 10px;
+    text-align: justify;
+
+}
+
+h1
+{
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+/*Tous les titres h1 auront une bordure blanche au fond noir et au bord arrondi, seront centrés, seront en majuscules. Il y a aussi une marge et un padding pour rendre plus joli*/
+
+a
+{
+    text-decoration: none;
+    color: gray;
+}
+/*Les liens ne seront plus souligner et apparaitront en gris*/
+
+.sommaire
+{
+    text-align: center;
+}
+/*Aligner le bloc des liens du sommaire*/
+
+h2
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+/*Le titre sera centré avec une demi bordure en dessous, blanche.*/

@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cours de web</title>
+        <meta charset="utf-8">
+        <link href="css/Style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Cours de Web</h1>
+        </header>
+        <section>
+            <h2 id="chap1">Chapitre 1 : les bases</h2>
+            <p>Les navigateurs permettent de consulter des sites.
+                HTML et CSS sont la base du web -> développer les sites<br>
+                Créer en 1991<br>
+                Différencier web et internet.<br>
+                HTML (hyper text markup language) HTML c’est le contenu (texte, image, lien, etc)<br>
+                CSS (Cascading Style Sheets, feuille de style) CSS c’est la forme (gérer l’apparence de la page web)<br>
+                Le CSS repose sur le html<br>
+                Le WYSIWYG (What you see is what you get)<br>
+                Doctype : pas une vraie balise, elle sert à dire que c’est bien une page web html écrite en html5.<br>
+                Balise html : la balise principale du code, elle englobe tout le contenu de la page. (Attention à fermer à la fin)<br>
+                Head (paire) : Elle sert à mettre certaines informations comme le titre de la page, les formes d’écritures, les lien css, elles ne sont pas affichées sur la page.<br>
+                Body : corp principale du programme, tout ce qui est dedans sera affiché sur la page web<br>
+                Meta charset= « utf8 » = C’est un encodage qui permet de déterminer comment certains caractères spéciaux vont s’afficher (impaire)<br>
+                balise p : paragraphe (paire)<br>
+                balise br : saut à la ligne<br>
+                Balise h1, h2, h3, etc. : balise de titre, le plus le numéro est élevé, plus le titre est petit<br>
+                Balise em (paire) : elle sert à écrire en italique<br>
+                Balise strong (paire) : elle sert à écrire en gras (utiliser pour afficher des termes importants)<br>
+                Balise mark : elle sert à surligner les mots (la couleur peut être changé avec le css)<br>
+                Balise ul (unordered list)(paire) : liste non ordonnée<br>
+                Balise li (paire) : sert à mettre des points devant des objets de liste<br>
+                Balise ol (ordered list) (paire) : Remplacer les balises ul par ol (numérote)<br>
+                Balise dl, dt, dd (impaire) : dl = délimiter la liste, dt = délimiter un terme, dd = délimiter la définition de ce terme<br>
+                Lien = Texte sur lequel on peut cliquer pour se rendre sur une autre page<br>
+                Balise a ; attribut href ; valeur de l’attribut est URL de la page ciblée<br>
+                Exemple : a href="https://google.com" Google/a
+                Une ancre est un lien permettant de se déplacer plus bas dans le site.<br>
+                Les figures sont des éléments qu’on utilise pour enrichir notre page.<br>
+                Balise figure (paire) (on peut mettre une/plusieurs images dedans) <br>
+                On peut ajouter une légende avec la balise figcaption (paire), elle est dans la balise figure
+            </p>
+        </section>
+        <section>
+            <h2 id="chap2">Chapitre 2 : les images</h2>
+            <p>Faire attention au format des images, toutes les pages web ont des images compressées, les machines font des calculs pour que les images soient moins lourdes et plus faciles à afficher.
+            <br>
+            .jpg ou .jpeg (poids réduit, 16millions de couleurs différentes)
+            <br>
+            .png (portable network graphics) (plus puissant et récent des formats, l'image peut être rendu transparente et on n'altère pas la qualité de l'image. 2 versions 8bits (256 couleurs) et 24 bits (16M couleurs), la compression du jpg étant plus puissante sur les photos, donc privilégié les jpg).
+            <br>
+            .gif (image animé)
+            <br>
+            Ex: img src="nomImage.jpg alt="Image de panda"/
+            <br>
+            2 attributs obligatoire : src, et alt (description de l'image)
+            Les moteurs de recherches d'images se réfèrent à l'attribut alt.
+            </p>
+            <p>La miniature cliquable :
+            C'est le resizeimage.net
+            <br>
+            a href="image/panda.jpg" img src="migniature/panda.jpg" alt="migniature de panda" title="image panda"/a
+            </p>
+            <p>Les figures :<br>
+            Éléments qui viennent compléter le texte pour documenter les infos de la page.<br>
+            figure /figure dans laquelle on peut mettre une image<br>
+            figcaption /figcaption balise paire à intérieur de la figure pour les citations
+            </p>
+            <p>Adresse :<br>
+            address/address
+            Définit les informations de l'auteur d'un document, met en évidence les coordonnées et url.</p>
+            <p>Buttun : <br>
+            Dans un formulaire on utilise un input dont le type est submit.</p>
+        </section>
+        <section>
+            <h2 id="chap3">Chapitre 3 : Liste de choix</h2>
+            <p>La balise datalist spécifie une liste prédéfinie d'options pour un élément input.<br>
+            On utilise la balise option pour définir les éléments de la datalist.</p>
+            <p>Dans select, option est pair ou orpheline.</p>
+        </section>
+    </body>
+</html>
